@@ -210,6 +210,53 @@ body::before {
     color: #777;
 }
 
+/* Upcoming Collection Section */
+.upcoming {
+    padding: 120px 20px;
+    background: linear-gradient(
+        to bottom,
+        #f6f6f4,
+        #ecebe8
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.upcoming-content {
+    max-width: 600px;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 18px;
+}
+
+.upcoming h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.upcoming p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 28px;
+}
+
+.note {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #888;
+}
 
 #contact {
     scroll-margin-top: 100px;
