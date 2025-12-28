@@ -377,3 +377,29 @@ body::before {
     border-top: 1px solid #333;
     padding-top: 15px;
 }
+
+/* Add to Cart (Placeholder) */
+.add-to-cart {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 26px;
+    border-radius: 50px;
+
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: #111;
+    border: 1px solid #111;
+    background: transparent;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.add-to-cart:hover {
+    background-color: #111;
+    color: #ffffff;
+}
+
