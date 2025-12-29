@@ -44,6 +44,7 @@ body::before {
 
     display: flex;
     justify-content: space-between;
+    vertical-align: middle;
     align-items: center;
     padding: 20px 60px;
     background: rgba(245, 244, 242, 0.8);
@@ -59,6 +60,9 @@ body::before {
 
 /* Navigation */
 .nav-links {
+    vertical-align: center;
+    align-items: center;
+    text-align: center;
     list-style: none;
     display: flex;
     gap: 30px;
@@ -75,6 +79,12 @@ body::before {
     border-bottom: 2px solid #111;
     padding-bottom: 4px;
 }
+.login {
+    padding: 8px 16px;
+    border: 1px solid #111;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+} 
 
 .hero {
     min-height: calc(100vh - 90px);
