@@ -1,0 +1,60 @@
+
+header { 
+  display: block; 
+  background: lightgray; 
+  padding: 10px; 
+  text-align: center; 
+  border: 2px solid black;
+  border-radius: 20px;
+} 
+ 
+header span { 
+  display: inline; 
+  color: red; 
+} 
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline-block-menu ul { 
+  list-style: none; 
+  padding: 0; 
+} 
+
+.inline-block-menu li { 
+  display: inline-block; 
+  margin-right: 10px;
+} 
+
+
+.inline-block-menu a { 
+  text-decoration: none; 
+  padding: 5px; 
+  background: lightblue; 
+  border: 1px solid black;
+  border-radius: 10px;
+} 
+ 
+.float-menu ul { 
+  list-style: none; 
+  padding: 0; 
+} 
+
+.float-menu li { 
+  float: left;
+  margin-right: 10px;
+} 
+
+.float-menu a { 
+  text-decoration: none; 
+  padding: 5px; 
+  background: lightgreen; 
+  border: 1px solid black;
+  border-radius: 10px;
+} 
+  
+.clear { 
+  clear: both; 
+} 
