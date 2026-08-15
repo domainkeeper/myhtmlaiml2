@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Salary Management</title>
+<link rel="stylesheet" href="/src/index.css">
+</head>
+<body>
+<div class="container">
+<h2>Employee Salary Management System</h2>
+<input type="text" id="name" placeholder="Employee Name"><br>
+<input type="text" id="empId" placeholder="Employee ID"><br>
+<input type="number" id="salary" placeholder="Salary"><br>
+<input type="text" id="dept" placeholder="Department"><br>
+<button onclick="addEmployee()">Add Employee</button><br>
+<button onclick="displayEmployees()">Display All</button>
+<button onclick="filterSalary()">Salary > 50000</button>
+<button onclick="totalSalary()">Total Salary</button>
+<button onclick="averageSalary()">Average Salary</button><br>
+<button onclick="countDepartment()">Count by Department</button>
+<div id="output"></div>
+</div>
+<script src="/src/main.jsx"></script>
+</body>
+</html>
+Index.css
+body {
+font-family: Arial;
+background-color: #eef2f3;
+text-align: center;
+}
+.container {
+width: 650px;
+margin: 40px auto;
+padding: 20px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 0 10px gray;
+}
+input {
+padding: 8px;
+margin: 5px;
+}
+button {
+padding: 8px 12px;
+margin: 5px;
+background-color: #28a745;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+background-color: #1e7e34;
+}
+#output {
+margin-top: 20px;
+text-align: left;
+}
